@@ -385,7 +385,7 @@ def put_language(frame: numpy.ndarray, language_string: str) -> numpy.ndarray:
 
 
 def ocr_stream(crop: list[int, int], source: int = 0, view_mode: int = 1, language=None):
-    """
+    """git 
     Begins the video stream and text OCR in two threads, then shows the video in a CV2 frame with the OCR
     boxes overlaid in real-time.
 
